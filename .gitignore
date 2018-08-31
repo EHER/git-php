@@ -1,0 +1,4 @@
+*.swp
+.exrc
+.php_cs.cache
+vendor

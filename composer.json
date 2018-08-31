@@ -1,0 +1,21 @@
+{
+    "name": "eher/git-php",
+    "type": "project",
+    "require": {
+        "symfony/console": "^4.2@dev"
+    },
+    "bin": ["bin/git"],
+    "autoload": {
+        "psr-4": {
+            "Eher\\GitPhp\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandre Eher",
+            "email": "alexandre@eher.com.br"
+        }
+    ],
+    "minimum-stability": "dev"
+}
